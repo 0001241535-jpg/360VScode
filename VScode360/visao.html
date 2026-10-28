@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização Imersiva 360° - SENAI</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://jsdelivr.net"/>
+    <script type="text/javascript" src="https://jsdelivr.net"></script>
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <span>SISTEMA FIEMG — VISUALIZAÇÃO INTERATIVA 360°</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container panorama-main">
+        <div class="navigation-box">
+            <a href="index.html" class="btn-back">⬅ Voltar para a Galeria</a>
+            <h2 id="panorama-title">Carregando Espaço...</h2>
+        </div>
+
+        <!-- Container onde o Script vai renderizar a foto 360° -->
+        <div id="viewer-360"></div>
+    </main>
+
+    <footer class="footer-discreto">
+        <div class="container-footer">
+            <p class="footer-title">Use o mouse para clicar, arrastar e explorar o ambiente em qualquer direção.</p>
+        </div>
+    </footer>
+
+    <!-- Vinculação do arquivo de script externo -->
+    <script src="script.js"></script>
+</body>
+</html>
